@@ -6,10 +6,9 @@ POST http://localhost:4000/api HTTP/1.1
 Content-Type: application/json
 
 {
-    "idbook": 1,
-    "titulo": "Star Wars: Darth Plagueis",
-    "autor": "George Lucas",
-    "edicion": 3
+    "titulo": "Las Enseñanzas de Don Juan",
+    "autor": "Carlos Castañeda",
+    "edicion": 45
 }
 
 ###
@@ -20,7 +19,6 @@ PUT http://localhost:4000/api/1 HTTP/1.1
 Content-Type: application/json
 
 {
-    "idbook": 1,
     "titulo": "El Caballero de la Armadura Oxidada",
     "autor": "Robert Fisher",
     "edicion": 13
